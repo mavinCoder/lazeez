@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lazeez | Home</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+  <!--Header-->
+  <div>
+    <div class="font-bold flex justify-around m-5">
+      <div><img src="resources/icons/lazeez.png" width="64px"></div>
+      <div class="space-x-8 invisible sm:visible">
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Menus</a>
+        <a href="#">Reviews</a>
+        <a href="#">Blog</a>
+      </div>
+      <div><button class="animate bg-yellow-400 rounded-full p-2"><span class="align-middle material-symbols-rounded">
+            search
+          </span><span>Search</span></button></div>
+    </div>
+    <!--Header-->
+    <!--HeroSection-->
+    <div class="flex flex-col sm:flex-row p-1 justify-around place-items-center">
+      <div>
+        <span class="headings">We Serve The Taste<br>
+          You Love</span><br>
+        <span class="midHeadings">
+          In this restaurent we serve you fresh food
+          and drinks,<br>in additon to light refreshments
+          such as baked goods<br>or snacks. The term
+          comes from rench word meaning food.</span><br><br><button
+          class="text-white font-bold bg-yellow-400 rounded-full p-2"><span
+            class="align-middle material-symbols-rounded">
+            download</span>Download Menu</button>
+      </div>
+      <div class="text-center"><img style="height: 400px; width: 400px" src="resources/images/lazeez-landing-side.png"
+          alt="Delicious">
+        <br>
+        <button class="animate text-white font-bold bg-red-500 rounded-full p-2"><span
+            class="align-middle material-symbols-rounded">
+            play_circle
+          </span>Play Video</button>
+      </div>
+    </div>
+    <!--HeroSection-->
+    <br>
+    <!--OfferSection-->
+    <div>
+      <span class="headings mx-2">Hot Offers</span>
+      <br>
+      <div class="flex flex-col sm:flex-row">
+        <div class="bg-red-500 rounded-2xl m-5 grid grid-cols-2 text-center">
+          <div class="fancyText">All Non-Veg<br>Items<div><button
+                class="bg-yellow-400 rounded-full p-5 m-3 font-bold">Buy<br>Now</button></div>
+          </div>
+          <div><img src="resources/images/non-vegItems.png"><br><span class="fancyText text-yellow-500">60% Off</span>
+          </div>
+        </div>
+        <div class="bg-yellow-500 rounded-2xl m-5 grid grid-cols-2 text-center">
+          <div class="fancyText">All Veg<br>Items<div><button
+                class="bg-red-500 rounded-full p-5 m-3 font-bold">Buy<br>Now</button></div>
+          </div>
+          <div><img src="resources/images/vegItems.png"><br><span class="fancyText text-red-500">50% Off</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--OfferSection-->
+    <br><br>
+    <!--Features-Section-->
+    <div class="text-center font-bold">
+      <span class="text-yellow-500">Our Services</span>
+      <br>
+      <div class="flex justify-center">
+        <div class="grid grid-cols-2 grid-rows-2 place-items-center">
+          <div class="fancyText bg-yellow-200 rounded-full h-[160px] w-[160px] m-5">Quality<br>Food<br><span
+              class="emoji">🥗</span></div>
+          <div class="fancyText bg-yellow-200 rounded-full h-[160px] w-[160px] m-5 p-2">Best<br>Taste<br><span
+              class="emoji">😋</span></div>
+          <div class="fancyText bg-yellow-200 rounded-full h-[160px] w-[160px] m-5 p-2">Fast<br>Delivery<br><span
+              class="emoji">🚚</span></div>
+          <div class="fancyText bg-yellow-200 rounded-full h-[160px] w-[160px] m-5 p-2">Cooking<br>Service<br><span
+              class="emoji">🍳</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Features-Section-->
+  <br><br>
+  <!--BookingSection-->
+  <div class="flex flex-col sm:flex-row p-1 justify-around place-items-center">
+    <div><img style="height: 400px; width: 400px" src="resources/images/lazeez-landing-side.png" alt="Delicious">
+    </div>
+    <div class="text-center">
+      <span class="headings">Do you have any<br>
+        Dinner plan today?</span><br>
+      <span class="midHeadings fancyText text-yellow-500">Book yor table NOW</span><br><br>
+      <div><input class="bg-yellow-200 rounded-full text-red-500 midHeadings p-2" type="datetime-local">
+      </div>
+    </div>
+  </div>
+  <!--BookingSection-->
+  <br>
+  <!--NLSection-->
+  <div class="text-center bg-yellow-200 p-5">
+    <h1 class="heading font-bold">Subscribe to Our Newsletter</h1>
+    Get notification about tips new Food & exclusive Promo news, just for you.<br><span
+      class="material-symbols-rounded">step_into</span>
+    <div><input class="bg-white rounded-md p-2 m-2" type="email"><button class="bg-green-300 rounded-md p-1 m-1"><span
+          class="material-symbols-rounded align-middle">send</span>Submit</button>
+    </div>
+  </div>
+  <!--NLSection-->
+  <script src="script.js"></script>
+</body>
+</html>

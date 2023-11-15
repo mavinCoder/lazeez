@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Outfit:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Outfit;
+}
+
+/*COMMON*/
+.headings,
+.emoji {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.fancyText {
+    font-family: 'Leckerli One', cursive;
+}
+
+.fancyText {
+    font-size: 36px;
+}
+
+.midHeadings {
+    font-size: 24px;
+}
+
+.animate {
+    font-size: 0px;
+    transition: 0.5s;
+}
+
+.animate:hover {
+    font-size: 12px;
+    transition: 0.5s;
+}
+
+/*COMMON*/
